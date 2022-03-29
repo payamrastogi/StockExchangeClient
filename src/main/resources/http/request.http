@@ -1,0 +1,24 @@
+GET http://localhost:8080/api/kafka/registry
+
+###
+
+POST http://localhost:8080/api/kafka/registry/create
+Content-Type: application/json
+
+{
+  "topic": "stocks",
+  "listenerClass": "StockMessageListener",
+  "startImmediately": true
+}
+
+###
+
+POST http://localhost:8080/api/kafka/registry/deactivate
+Content-Type: application/json
+
+{
+  "consumerId": "com.coddicted.stockexchangeclient.listener.CustomMessageListener#0"
+}
+
+###
+
