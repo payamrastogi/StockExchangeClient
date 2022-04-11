@@ -17,7 +17,7 @@ POST http://localhost:8080/api/kafka/registry/deactivate
 Content-Type: application/json
 
 {
-  "consumerId": "com.coddicted.stockexchangeclient.listener.CustomMessageListener#0"
+  "consumerId": "com.coddicted.stockexchange.listener.CustomMessageListener#0"
 }
 
 ###

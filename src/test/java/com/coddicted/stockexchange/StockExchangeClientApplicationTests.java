@@ -1,4 +1,4 @@
-package com.coddicted.stockexchangeclient;
+package com.coddicted.stockexchange;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
